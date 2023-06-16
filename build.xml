@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<project name="HelloWorld" default="run">
+<project name="Hello" default="run">
     <target name="compile">
         <mkdir dir="build/classes"/>
         <javac destdir="build/classes" includeantruntime="false">
-            <src path="."/>
+            <src path="src"/>
         </javac>
     </target>
     <target name="run" depends="compile">
