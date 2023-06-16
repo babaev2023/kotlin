@@ -7,7 +7,7 @@
         </javac>
     </target>
     <target name="run" depends="compile">
-        <java classname="HelloWorld" classpath="build/classes"/>
+        <java classname="Hello" classpath="."/>
     </target>
     <target name="clean">
         <delete dir="build"/>
