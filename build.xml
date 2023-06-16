@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<project name="Hello" default="run">
+<project name="HelloWorld" default="run">
     <target name="compile">
         <mkdir dir="build/classes"/>
         <javac destdir="build/classes" includeantruntime="false">
@@ -7,7 +7,7 @@
         </javac>
     </target>
     <target name="run" depends="compile">
-        <java classname="Hello" classpath="build/classes"/>
+        <java classname="HelloWorld" classpath="build/classes"/>
     </target>
     <target name="clean">
         <delete dir="build"/>
